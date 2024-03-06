@@ -52,8 +52,5 @@ def main():
         outputs=outputs,
     )
 
-    interface.launch()
-
-
 if __name__ == "__main__":
     main()
