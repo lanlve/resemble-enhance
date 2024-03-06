@@ -52,7 +52,6 @@ def main():
         outputs=outputs,
     )
 
-interface.share(public=False)
 
 if __name__ == "__main__":
     main()
