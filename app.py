@@ -50,8 +50,9 @@ def main():
         description="AI-driven audio enhancement for your audio files, powered by Resemble AI.",
         inputs=inputs,
         outputs=outputs,
-        share=False,  # 禁用自动共享
     )
+
+interface.share(public=False)
 
 if __name__ == "__main__":
     main()
